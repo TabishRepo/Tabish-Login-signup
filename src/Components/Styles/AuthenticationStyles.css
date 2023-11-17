@@ -1,0 +1,123 @@
+
+  
+  .get2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 236, 238);
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  }
+  
+  .containerss {
+    background-color: white;
+    padding: 1rem 3rem;
+    width: 600px;
+    padding-bottom: 2rem;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    margin: 1rem 0;
+    color: #555555;
+    font-family: Questrial, Segoe UI Symbol;
+font-size: larger;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    ;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 0.25px solid gray;
+    font-size: 1.1rem;
+  }
+  
+  .button1 {
+    background-color:#f1c8c9;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0.3rem;
+  }
+  
+  span a {
+    text-decoration: none;
+    color: rgb(80, 98, 255);
+  }
+  
+  .private {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(80, 98, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .private button1 {
+    background-color: black;
+    padding: 2rem 10rem;
+    font-size: 4rem;
+    border-radius: 2rem;
+  }
+
+
+
+.button {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 3rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0 2.6rem;
+  }
+}
